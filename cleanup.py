@@ -1,9 +1,8 @@
 import subprocess,os
 from PIL import Image
 
-db_path = os.path.abspath("/home/ts/jmih/ebanardy_zhmihnulo_devel/images_db")
-root_path = os.path.abspath("/home/ts/jmih/ebanardy_zhmihnulo_devel/")
-
+root_path = os.getcwd()
+db_path = os.path.abspath(root_path+"/images_db/")
 print("Проводится очистка скачанных изображений")
 cleaned = 0
 for (dirName, subDirs, fileNames) in os.walk(db_path):
