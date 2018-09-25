@@ -3,7 +3,7 @@ from PIL import Image
 
 root_path = os.getcwd()
 db_path = os.path.abspath(root_path+"/images_db/")
-print("Проводится очистка скачанных изображений")
+print("Clearing downloaded images")
 cleaned = 0
 for (dirName, subDirs, fileNames) in os.walk(db_path):
 	for file in fileNames:
@@ -18,7 +18,7 @@ for (dirName, subDirs, fileNames) in os.walk(db_path):
 		if (width <= 450 or height <= 350):
 			subprocess.call(['rm',os.path.join(dirName, file)])
 			cleaned += 1
-print("Удалено", cleaned, "изображений")
+print("Deleted", cleaned, "images")
 
 
 
