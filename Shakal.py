@@ -230,4 +230,4 @@ draw.text ((0,0), "https://vk.com/ebat_zhmihnulo", font=unicode_font_water,fill=
 draw.text ((random_a_x,random_a_y),"а", font=unicode_font_a, fill=font_color_a)
 img1.save("out.jpg", "JPEG", quality=100)
 
-print("ЖМЫХНУЛО!Чекай",out_path+"out.jpg!")
+print("EXTRA FRIED!Check",out_path+"out.jpg!")
