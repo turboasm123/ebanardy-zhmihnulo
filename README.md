@@ -1,5 +1,5 @@
 # Ebanardy Zhmihnulo is the automated cat pics ruiner, firstly designed for VKontakte, now it is a public domain.
-(Yeah, you would wish it wasn't.)
+(Yeah, you wish it wasn't.)
 
 
 
