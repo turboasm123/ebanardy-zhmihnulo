@@ -23,7 +23,7 @@ if file_count <= 100:
 	print("Запуск Collector.sh")
 	vk.messages.send(peer_id=uid, message="Начинаю скачивание....")
 	os.chdir(root_path)
-	process = os.system("sh /home/ts/jmih/ebanardy_zhmihnulo_devel/Collector.sh")
+	process = os.system("sh",root_path+"/Collector.sh")
 	file_list = os.listdir(db_path)
 	file_count = len(file_list)
 	vk.messages.send(peer_id=uid, message="Скачивание завершено, теперь файлов: "+repr(file_count))
