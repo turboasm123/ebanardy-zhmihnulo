@@ -19,24 +19,3 @@ for (dirName, subDirs, fileNames) in os.walk(db_path):
 			subprocess.call(['rm',os.path.join(dirName, file)])
 			cleaned += 1
 print("Deleted", cleaned, "images")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
